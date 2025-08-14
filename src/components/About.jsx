@@ -90,7 +90,7 @@ When I’m not coding, I enjoy exploring new technologies, improving my skills t
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/Shubham-Software-Developer.pdf"
+              href="/Shubham-Software-Dev.pdf"
               download
               className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-500 to-cyan-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-teal-500/25 transition-all duration-300"
             >

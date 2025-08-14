@@ -25,9 +25,18 @@ const Index = () => {
 
 
           </p>
-          <button className="mt-6 px-6 py-3 bg-teal-500 text-white font-semibold rounded hover:bg-teal-600 transition duration-300">
-            Explore More
-          </button>
+        <button
+  onClick={() => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+  className="mt-6 px-6 py-3 bg-teal-500 text-white font-semibold rounded hover:bg-teal-600 transition duration-300"
+>
+  Explore More
+</button>
+
         </motion.div>
       </div>
 
